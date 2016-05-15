@@ -1,8 +1,8 @@
 var winW=$(window).width();
 var winH=$(window).height();
 
-$(document).ready(function() {
-    
+$(document).on('turbolinks:load', function() {
+            
     var Showcase = {
     
         menu: $('#MENUSIDE'),
@@ -220,7 +220,7 @@ $(document).ready(function() {
             }
         });
    });
-   
+               
    window.Showcase = Showcase;
 });
 

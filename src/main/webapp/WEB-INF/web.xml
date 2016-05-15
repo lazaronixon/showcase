@@ -56,6 +56,10 @@
         <param-name>primefaces.FONT_AWESOME</param-name>
         <param-value>true</param-value>
     </context-param>
+    <context-param>
+        <param-name>primefaces.TURBO_LINKS</param-name>
+        <param-value>true</param-value>
+    </context-param>       
 
     <!--<context-param>
         <param-name>primefaces.CACHE_PROVIDER</param-name>
