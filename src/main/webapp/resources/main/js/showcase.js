@@ -220,7 +220,8 @@ $(document).on('turbolinks:load', function() {
             }
         });
    });
-               
+             
+   SyntaxHighlighter.highlight(); 
    window.Showcase = Showcase;
 });
 

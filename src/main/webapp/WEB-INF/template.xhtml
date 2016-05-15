@@ -23,8 +23,9 @@
     <h:outputStylesheet name="main/css/sh.css" />
     <h:outputScript name="jquery/jquery.js" library="primefaces" />
     <h:outputScript name="jquery/jquery-plugins.js" library="primefaces" />
-    <h:outputScript name="main/js/perfect-scrollbar.js" />
-    <h:outputScript name="main/js/showcase.js" />
+    <h:outputScript name="main/js/sh.js"/>
+    <h:outputScript name="main/js/perfect-scrollbar.js" />    
+    <h:outputScript name="main/js/showcase.js" />    
     <ui:insert name="head" />
     <script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -680,11 +681,7 @@
                 <h:outputText value="" />
             </f:facet>
         </p:ajaxStatus>
-    </ui:insert>
-    
-    <ui:insert name="highlight">
-        <h:outputScript name="main/js/sh.js" target="body"/>
-    </ui:insert>
+    </ui:insert>    
     
     <ui:insert name="body"></ui:insert>
 </h:body>
